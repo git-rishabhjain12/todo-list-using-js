@@ -73,7 +73,6 @@ ul li {
   cursor: pointer;
   position: relative;
   max-width: 420px;
-
 }
 
 ul li::before {
@@ -125,5 +124,14 @@ ul li span:hover {
 
   .row button {
     padding: 1rem 2rem;
+  }
+
+  ul li {
+    max-width: 400px;
+  }
+
+  ul li span {
+    position: absolute;
+    right: 0px;
   }
 }
