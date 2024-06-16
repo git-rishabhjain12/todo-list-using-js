@@ -115,3 +115,14 @@ ul li span:hover {
   background-color: #edeef0;
   border-radius: 50%;
 }
+
+@media screen and (max-width:480px) {
+
+  .todo-app {
+    padding: 40px 10px 70px;
+  }
+
+  .row button {
+    padding: 1rem 2rem;
+  }
+}
